@@ -127,7 +127,8 @@ figcaption {
 .gallery {
     display: flex;
     width: 150%;
-    aspect-ratio: 100/23;
+    height: 0;
+    padding-bottom: 23%;
     gap: 20px;
     animation: carousal 10s linear infinite;
 }
